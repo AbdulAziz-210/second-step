@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1367px;
+    padding: 0 20px;
+}
+.header{
+    margin: 8px 98px 8px 100px;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-navbar{
+    margin-left: 527px;
+    display: flex;
+    align-items: center;
+}
+.headere-list{
+    display: flex;
+    align-items: center;
+}
+.header-item + .header-item{
+    margin-left: 30px;
+}
+.header-item-link{
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.header-item-link2{
+    padding: 2px 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*  HOVER'S   */
+
+.header-item-link:hover{
+    border-bottom: 1px solid #5FBDFF;
+    color: #5FBDFF;
+    padding-bottom: 5px;
+}
+.header-item-link2:hover{
+    border-bottom: 1px solid #5FBDFF;
+    color: #5FBDFF;
+    border-color: #5FBDFF;
+}
+
+
+/*   Trend-section   */
+
+
+.trend-section{
+    margin-bottom: 100px;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trend-content{
+    /* margin: 0 auto */
+    display: flex;
+}
+.trend{
+    width: 496px;
+    margin: 0 auto;
+    box-shadow: -1px -1px 10px 0px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trend-img{
+    margin: 48px 232px 24px 232px;
+}
+.trend-title{
+    margin: 0px 136px 16px 136px;
+    color: rgba(0, 0, 0, 0.85);
+    font-family: Segoe UI;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.trend-text{
+    display: inline-block;
+    margin: 0 14px 39px 166px;
+    color: #444150;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.trend-inner-link{
+    color: var(--01-bab-3, #01BAB3);
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    border-bottom: 2px solid #01BAB3;
+}
+.main-folder{
+    display: flex;
+}
+
+
+.form-icon{
+    color: var(--01-bab-3, #01BAB3);
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+/* //////////////    ///////////// */
+
+.form-folder-1 {
+    margin: 0 75px 22px 75px;
+} 
+.form-folder-1 input{
+    padding: 9px 0 11px 15px;
+    width: 414px;
+    height: 45px;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+    
+    color: #444150;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.5;
+}
+
+
+.form-folder-2{
+    margin: 0 75px 22px 75px;
+}
+.form-folder-2 > input{
+    padding: 11px 0 11px 13px;
+    width: 414.535px;
+    height: 45.277px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+    
+    color: #444150;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.5;
+}
+
+
+
+.form-content > select{
+    width: 200px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+}
+
+
+.form-content2 > input{
+    padding: 10px 0 14px 16px;
+    width: 200px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+    color: #444150;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.5;
+}
+
+.form-folder-3{
+    margin: 0 75px 22px 75px;
+}
+.form-folder-3 input{
+    padding: 20px 0 9px 16px;
+    width: 414.535px;
+    height: 45.277px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+    
+    color: #444150;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    opacity: 0.5;
+}
+
+
+.form-folder-4{
+    margin: 22px 75px 87px 75px;
+}
+.form-folder-4 input{
+    width: 414.535px;
+    height: 45.277px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+}
+
+
+/* .input2{
+    width: 416px;
+    height: 48px;
+    padding: 10px 0 14px 16px;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+}
+*/
+
+
+
+
+
+.form-content{
+    width: 200px;
+    margin: 0 16px 24px 75px;
+}
+.form-content > select{
+    width: 200px;
+    height: 45px;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+}
+
+/* /////////////////////// */
+
+
+
+.form-button{
+    margin: 0 75px 23px 75px;
+    display: flex;
+    align-items: center;
+    padding: 12px 174px 12px 174px;
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 416px;
+    height: 48px;
+    border-radius: 6px;
+    background: var(--01-bab-3, #01BAB3);
+}
+
+
+
+.form-button{
+    outline: none;
+}
+
+input{
+    outline: none;
+}
+
+
+
+
+
+.input1[type='email']:focus{
+    outline: 2px solid #01BAB3;
+}
+
+.input2[type='tel']:focus{
+    outline: 2px solid #01BAB3;
+}
+
+.input3[type='text']:focus{
+    outline: 2px solid #01BAB3;
+}
+
+.form-content > select:focus{
+    outline: 2px solid #01BAB3;
+}
+
+.input4[type='password']:focus{
+    outline: 2px solid #01BAB3;
+}
+
+.input5[type='text']:focus{
+    outline: 2px solid crimson;
+}
+
+
+
+.form-text{
+    margin: 23px 100px 72px 100px;
+    width: 366px;
+    height: 47px;
+}
+.form-inner-text{
+    color: var(--01-bab-3, #01BAB3);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+
+
